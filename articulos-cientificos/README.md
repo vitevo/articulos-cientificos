@@ -32,7 +32,7 @@ Each folder contains a `SKILL.md` (instructions), a `references/` folder (operat
 **Claude Code:** copy the folders you want into `~/.claude/skills/` (personal) or `.claude/skills/` inside a project.
 
 ```bash
-git clone https://github.com/<user>/articulos-cientificos.git
+git clone https://github.com/vitevo/articulos-cientificos.git
 cp -r articulos-cientificos/skills/* ~/.claude/skills/
 ```
 
