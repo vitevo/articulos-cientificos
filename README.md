@@ -2,7 +2,7 @@
 
 A set of ten [Agent Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) that guide an AI assistant through the writing and review of a scientific article, section by section, in Spanish. Each skill turns an established writing framework (Fortanet et al., Heard, Belcher, Cassany, APA JARS, Braun & Clarke, Miles) into an explicit, auditable procedure, so the assistant supports the author's judgment instead of replacing it.
 
-*Autor:* Victor Omar Vite León (PUCP · UPC) · ORCID [0000-0002-0206-5858](https://orcid.org/0000-0002-0206-5858)
+*Autor:* Victor Omar Vite León (UPC) · ORCID [0000-0002-0206-5858](https://orcid.org/0000-0002-0206-5858)
 
 ## Why
 
@@ -32,7 +32,7 @@ Each folder contains a `SKILL.md` (instructions), a `references/` folder (operat
 **Claude Code:** copy the folders you want into `~/.claude/skills/` (personal) or `.claude/skills/` inside a project.
 
 ```bash
-git clone https://github.com/<user>/articulos-cientificos.git
+git clone https://github.com/vitevo/articulos-cientificos.git
 cp -r articulos-cientificos/skills/* ~/.claude/skills/
 ```
 
